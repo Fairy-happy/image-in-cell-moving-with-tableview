@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C274EEA1E56DEC800725CDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C274EE91E56DEC800725CDB /* main.m */; };
+		2C274EED1E56DEC800725CDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C274EEC1E56DEC800725CDB /* AppDelegate.m */; };
+		2C274EF01E56DEC800725CDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C274EEF1E56DEC800725CDB /* ViewController.m */; };
+		2C274EF31E56DEC800725CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C274EF11E56DEC800725CDB /* Main.storyboard */; };
+		2C274EF51E56DEC800725CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C274EF41E56DEC800725CDB /* Assets.xcassets */; };
+		2C274EF81E56DEC800725CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C274EF61E56DEC800725CDB /* LaunchScreen.storyboard */; };
+		2C274F031E56DEC800725CDB /* tableview__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C274F021E56DEC800725CDB /* tableview__Tests.m */; };
+		2C274F0E1E56DEC800725CDB /* tableview__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C274F0D1E56DEC800725CDB /* tableview__UITests.m */; };
+		2C274F1D1E56EF7900725CDB /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C274F1C1E56EF7900725CDB /* TableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C274EFF1E56DEC800725CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C274EDD1E56DEC800725CDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C274EE41E56DEC800725CDB;
+			remoteInfo = "tableview动效";
+		};
+		2C274F0A1E56DEC800725CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C274EDD1E56DEC800725CDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C274EE41E56DEC800725CDB;
+			remoteInfo = "tableview动效";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C274EE51E56DEC800725CDB /* tableview动效.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tableview动效.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C274EE91E56DEC800725CDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C274EEB1E56DEC800725CDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C274EEC1E56DEC800725CDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C274EEE1E56DEC800725CDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C274EEF1E56DEC800725CDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C274EF21E56DEC800725CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C274EF41E56DEC800725CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C274EF71E56DEC800725CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C274EF91E56DEC800725CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C274EFE1E56DEC800725CDB /* tableview动效Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tableview动效Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C274F021E56DEC800725CDB /* tableview__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableview__Tests.m; sourceTree = "<group>"; };
+		2C274F041E56DEC800725CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C274F091E56DEC800725CDB /* tableview动效UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tableview动效UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C274F0D1E56DEC800725CDB /* tableview__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableview__UITests.m; sourceTree = "<group>"; };
+		2C274F0F1E56DEC800725CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C274F1B1E56EF7900725CDB /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		2C274F1C1E56EF7900725CDB /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		2C674F621E5ABA6400FE1292 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C274EE21E56DEC800725CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C274EFB1E56DEC800725CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C274F061E56DEC800725CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C274EDC1E56DEC800725CDB = {
+			isa = PBXGroup;
+			children = (
+				2C274EE71E56DEC800725CDB /* tableview动效 */,
+				2C274F011E56DEC800725CDB /* tableview动效Tests */,
+				2C274F0C1E56DEC800725CDB /* tableview动效UITests */,
+				2C274EE61E56DEC800725CDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C274EE61E56DEC800725CDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C274EE51E56DEC800725CDB /* tableview动效.app */,
+				2C274EFE1E56DEC800725CDB /* tableview动效Tests.xctest */,
+				2C274F091E56DEC800725CDB /* tableview动效UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C274EE71E56DEC800725CDB /* tableview动效 */ = {
+			isa = PBXGroup;
+			children = (
+				2C274EEB1E56DEC800725CDB /* AppDelegate.h */,
+				2C274EEC1E56DEC800725CDB /* AppDelegate.m */,
+				2C274EEE1E56DEC800725CDB /* ViewController.h */,
+				2C274EEF1E56DEC800725CDB /* ViewController.m */,
+				2C274F1B1E56EF7900725CDB /* TableViewCell.h */,
+				2C274F1C1E56EF7900725CDB /* TableViewCell.m */,
+				2C274EF11E56DEC800725CDB /* Main.storyboard */,
+				2C274EF41E56DEC800725CDB /* Assets.xcassets */,
+				2C274EF61E56DEC800725CDB /* LaunchScreen.storyboard */,
+				2C274EF91E56DEC800725CDB /* Info.plist */,
+				2C274EE81E56DEC800725CDB /* Supporting Files */,
+				2C674F621E5ABA6400FE1292 /* PrefixHeader.pch */,
+			);
+			path = "tableview动效";
+			sourceTree = "<group>";
+		};
+		2C274EE81E56DEC800725CDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C274EE91E56DEC800725CDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C274F011E56DEC800725CDB /* tableview动效Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2C274F021E56DEC800725CDB /* tableview__Tests.m */,
+				2C274F041E56DEC800725CDB /* Info.plist */,
+			);
+			path = "tableview动效Tests";
+			sourceTree = "<group>";
+		};
+		2C274F0C1E56DEC800725CDB /* tableview动效UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C274F0D1E56DEC800725CDB /* tableview__UITests.m */,
+				2C274F0F1E56DEC800725CDB /* Info.plist */,
+			);
+			path = "tableview动效UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C274EE41E56DEC800725CDB /* tableview动效 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C274F121E56DEC800725CDB /* Build configuration list for PBXNativeTarget "tableview动效" */;
+			buildPhases = (
+				2C274EE11E56DEC800725CDB /* Sources */,
+				2C274EE21E56DEC800725CDB /* Frameworks */,
+				2C274EE31E56DEC800725CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tableview动效";
+			productName = "tableview动效";
+			productReference = 2C274EE51E56DEC800725CDB /* tableview动效.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C274EFD1E56DEC800725CDB /* tableview动效Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C274F151E56DEC800725CDB /* Build configuration list for PBXNativeTarget "tableview动效Tests" */;
+			buildPhases = (
+				2C274EFA1E56DEC800725CDB /* Sources */,
+				2C274EFB1E56DEC800725CDB /* Frameworks */,
+				2C274EFC1E56DEC800725CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C274F001E56DEC800725CDB /* PBXTargetDependency */,
+			);
+			name = "tableview动效Tests";
+			productName = "tableview动效Tests";
+			productReference = 2C274EFE1E56DEC800725CDB /* tableview动效Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C274F081E56DEC800725CDB /* tableview动效UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C274F181E56DEC800725CDB /* Build configuration list for PBXNativeTarget "tableview动效UITests" */;
+			buildPhases = (
+				2C274F051E56DEC800725CDB /* Sources */,
+				2C274F061E56DEC800725CDB /* Frameworks */,
+				2C274F071E56DEC800725CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C274F0B1E56DEC800725CDB /* PBXTargetDependency */,
+			);
+			name = "tableview动效UITests";
+			productName = "tableview动效UITests";
+			productReference = 2C274F091E56DEC800725CDB /* tableview动效UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C274EDD1E56DEC800725CDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = fairy;
+				TargetAttributes = {
+					2C274EE41E56DEC800725CDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 46C6SXQWF4;
+						ProvisioningStyle = Automatic;
+					};
+					2C274EFD1E56DEC800725CDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 46C6SXQWF4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C274EE41E56DEC800725CDB;
+					};
+					2C274F081E56DEC800725CDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 46C6SXQWF4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C274EE41E56DEC800725CDB;
+					};
+				};
+			};
+			buildConfigurationList = 2C274EE01E56DEC800725CDB /* Build configuration list for PBXProject "tableview动效" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C274EDC1E56DEC800725CDB;
+			productRefGroup = 2C274EE61E56DEC800725CDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C274EE41E56DEC800725CDB /* tableview动效 */,
+				2C274EFD1E56DEC800725CDB /* tableview动效Tests */,
+				2C274F081E56DEC800725CDB /* tableview动效UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C274EE31E56DEC800725CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C274EF81E56DEC800725CDB /* LaunchScreen.storyboard in Resources */,
+				2C274EF51E56DEC800725CDB /* Assets.xcassets in Resources */,
+				2C274EF31E56DEC800725CDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C274EFC1E56DEC800725CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C274F071E56DEC800725CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C274EE11E56DEC800725CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C274EF01E56DEC800725CDB /* ViewController.m in Sources */,
+				2C274F1D1E56EF7900725CDB /* TableViewCell.m in Sources */,
+				2C274EED1E56DEC800725CDB /* AppDelegate.m in Sources */,
+				2C274EEA1E56DEC800725CDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C274EFA1E56DEC800725CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C274F031E56DEC800725CDB /* tableview__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C274F051E56DEC800725CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C274F0E1E56DEC800725CDB /* tableview__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C274F001E56DEC800725CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C274EE41E56DEC800725CDB /* tableview动效 */;
+			targetProxy = 2C274EFF1E56DEC800725CDB /* PBXContainerItemProxy */;
+		};
+		2C274F0B1E56DEC800725CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C274EE41E56DEC800725CDB /* tableview动效 */;
+			targetProxy = 2C274F0A1E56DEC800725CDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C274EF11E56DEC800725CDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C274EF21E56DEC800725CDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C274EF61E56DEC800725CDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C274EF71E56DEC800725CDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C274F101E56DEC800725CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C274F111E56DEC800725CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C274F131E56DEC800725CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 46C6SXQWF4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/tableview动效/PrefixHeader.pch";
+				INFOPLIST_FILE = "tableview动效/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fairy.jump.tableview--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C274F141E56DEC800725CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 46C6SXQWF4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/tableview动效/PrefixHeader.pch";
+				INFOPLIST_FILE = "tableview动效/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fairy.jump.tableview--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C274F161E56DEC800725CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 46C6SXQWF4;
+				INFOPLIST_FILE = "tableview动效Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fairy.jump.tableview--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableview动效.app/tableview动效";
+			};
+			name = Debug;
+		};
+		2C274F171E56DEC800725CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 46C6SXQWF4;
+				INFOPLIST_FILE = "tableview动效Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fairy.jump.tableview--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableview动效.app/tableview动效";
+			};
+			name = Release;
+		};
+		2C274F191E56DEC800725CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 46C6SXQWF4;
+				INFOPLIST_FILE = "tableview动效UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fairy.jump.tableview--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tableview动效";
+			};
+			name = Debug;
+		};
+		2C274F1A1E56DEC800725CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 46C6SXQWF4;
+				INFOPLIST_FILE = "tableview动效UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fairy.jump.tableview--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tableview动效";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C274EE01E56DEC800725CDB /* Build configuration list for PBXProject "tableview动效" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C274F101E56DEC800725CDB /* Debug */,
+				2C274F111E56DEC800725CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C274F121E56DEC800725CDB /* Build configuration list for PBXNativeTarget "tableview动效" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C274F131E56DEC800725CDB /* Debug */,
+				2C274F141E56DEC800725CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C274F151E56DEC800725CDB /* Build configuration list for PBXNativeTarget "tableview动效Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C274F161E56DEC800725CDB /* Debug */,
+				2C274F171E56DEC800725CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C274F181E56DEC800725CDB /* Build configuration list for PBXNativeTarget "tableview动效UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C274F191E56DEC800725CDB /* Debug */,
+				2C274F1A1E56DEC800725CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C274EDD1E56DEC800725CDB /* Project object */;
+}
