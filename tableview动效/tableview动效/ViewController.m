@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     table = [[UITableView alloc]initWithFrame:self.view.bounds];
-    table.backgroundColor = [UIColor yellowColor];
+//    table.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:table];
     table.delegate = self;
     table.dataSource = self;
